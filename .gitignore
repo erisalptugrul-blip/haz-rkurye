@@ -1,0 +1,8 @@
+# Gerçek siparişler, oturumlar ve yüklenen fotoğraflar GitHub'a gitmesin
+data/*.sqlite
+data/*.sqlite-*
+data/sessions/
+uploads/*
+!uploads/index.html
+!uploads/.htaccess
+.DS_Store
